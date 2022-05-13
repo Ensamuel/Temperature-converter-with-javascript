@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 450px;
+    border-bottom: 5px solid blue;
+    padding-bottom: 5px;
+    font-size: 30px;
+    line-height: 1.5em;
+
+}
+form {
+    display: block;
+    margin: 20px 100px 200px 450px;
+    background-color: white;
+    padding: 50px;
+    width: 250px;
+    text-align:center;
+    line-height: 3em;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 3px 2px 2px blue;
+
+}
+
+input{
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 18px;
+    line-height: 1.5;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    background-color: blue;
+}
+
+@media screen and (max-width:800px) {
+
+    h1{
+       font-size: 15px;
+       display: block;
+       width: 50%;
+       margin: 30px 100px;
+       padding: 30px;
+
+    
+    }
+
+    form{
+      
+        margin-left: 0;
+        width: 50%;
+       margin: 30px 70px;
+       padding: 50px;
+       line-height: 1.4;
+       
+
+    }
+
+    input{
+        
+        font-size: 12px;
+        line-height: 1.2;
+    }
+
+    label
+    {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+}
